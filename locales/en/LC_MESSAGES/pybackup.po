@@ -1,0 +1,374 @@
+# English translations for PyBackup project.
+# Copyright (C) 2025 Martin Hou
+# Martin Hou <qolerakosmiq@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PyBackup 1.0.0\n"
+"POT-Creation-Date: 2025-04-10 20:34+0200\n"
+"PO-Revision-Date: 2025-04-10 13:13+0200\n"
+"Last-Translator: Martin Hou <qolerakosmiq@gmail.com>\n"
+"Language-Team: English <en@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: pybackup_gui.py:123
+msgid "PyBackup"
+msgstr ""
+
+#: pybackup_gui.py:204
+msgid "Source Directory:"
+msgstr ""
+
+#: pybackup_gui.py:208
+msgid "Browse..."
+msgstr ""
+
+#: pybackup_gui.py:212
+msgid "Target Directories:"
+msgstr ""
+
+#: pybackup_gui.py:239
+msgid "Add..."
+msgstr ""
+
+#: pybackup_gui.py:241
+msgid "Remove"
+msgstr ""
+
+#: pybackup_gui.py:247
+msgid "Options"
+msgstr ""
+
+#: pybackup_gui.py:255
+msgid "Target Free Space (%):"
+msgstr ""
+
+#: pybackup_gui.py:261
+msgid "Minimum percentage of disk space to leave free (0-90)."
+msgstr ""
+
+#: pybackup_gui.py:266
+msgid "Copy Retries:"
+msgstr ""
+
+#: pybackup_gui.py:272
+msgid "Number of times to retry copying a file after an error (0+)."
+msgstr ""
+
+#: pybackup_gui.py:278
+msgid "Retry Delay (s):"
+msgstr ""
+
+#: pybackup_gui.py:284
+msgid "Seconds to wait between failed copy attempts (0+)."
+msgstr ""
+
+#: pybackup_gui.py:289
+msgid "Files"
+msgstr ""
+
+#: pybackup_gui.py:296
+msgid "Log File Path:"
+msgstr ""
+
+#: pybackup_gui.py:300 pybackup_gui.py:313
+msgid "..."
+msgstr ""
+
+#: pybackup_gui.py:304
+msgid "File where operation logs will be written."
+msgstr ""
+
+#: pybackup_gui.py:309
+msgid "State File Path:"
+msgstr ""
+
+#: pybackup_gui.py:317
+msgid "File used to store progress for resuming interrupted backups."
+msgstr ""
+
+#: pybackup_gui.py:327
+msgid "Start Backup >"
+msgstr ""
+
+#: pybackup_gui.py:334
+msgid "Select Source Directory"
+msgstr ""
+
+#: pybackup_gui.py:342
+msgid "Add Target Directory"
+msgstr ""
+
+#: pybackup_gui.py:366
+msgid "Select Log File"
+msgstr ""
+
+#: pybackup_gui.py:369
+msgid "Log files"
+msgstr ""
+
+#: pybackup_gui.py:370
+msgid "Text files"
+msgstr ""
+
+#: pybackup_gui.py:371 pybackup_gui.py:383
+msgid "All files"
+msgstr ""
+
+#: pybackup_gui.py:379
+msgid "Select State File"
+msgstr ""
+
+#: pybackup_gui.py:382
+msgid "JSON files"
+msgstr ""
+
+#: pybackup_gui.py:398
+msgid "Overall Progress:"
+msgstr ""
+
+#: pybackup_gui.py:400 pybackup_gui.py:734 pybackup_gui.py:736
+msgid "Starting..."
+msgstr ""
+
+#: pybackup_gui.py:415
+msgid "Item Path"
+msgstr ""
+
+#: pybackup_gui.py:416
+msgid "Status"
+msgstr ""
+
+#: pybackup_gui.py:417
+msgid "Current Target"
+msgstr ""
+
+#: pybackup_gui.py:441
+msgid "Logs"
+msgstr ""
+
+#: pybackup_gui.py:459 pybackup_gui.py:728 pybackup_gui.py:815
+msgid "Pause"
+msgstr ""
+
+#: pybackup_gui.py:462 pybackup_gui.py:729 pybackup_gui.py:946
+msgid "Cancel"
+msgstr ""
+
+#: pybackup_gui.py:497 pybackup_gui.py:553 pybackup_gui.py:913
+msgid "Processing..."
+msgstr ""
+
+#: pybackup_gui.py:523
+msgid "Error path"
+msgstr ""
+
+#: pybackup_gui.py:596
+msgid "Backup Summary"
+msgstr ""
+
+#: pybackup_gui.py:599
+msgid "Backup finished/cancelled."
+msgstr ""
+
+#: pybackup_gui.py:606
+msgid "Failed Items:"
+msgstr ""
+
+#: pybackup_gui.py:619
+msgid "Close"
+msgstr ""
+
+#: pybackup_gui.py:629
+msgid "Please select a valid source directory."
+msgstr ""
+
+#: pybackup_gui.py:629 pybackup_gui.py:634 pybackup_gui.py:659
+#: pybackup_gui.py:666 pybackup_gui.py:672 pybackup_gui.py:679
+#: pybackup_gui.py:709
+msgid "Error"
+msgstr ""
+
+#: pybackup_gui.py:634
+msgid "Please add at least one target directory."
+msgstr ""
+
+#: pybackup_gui.py:644
+msgid "Confirm Target Creation"
+msgstr ""
+
+#: pybackup_gui.py:645
+msgid ""
+"Target directory '{path}' does not exist.\n"
+"\n"
+"Do you want to create it?"
+msgstr ""
+
+#: pybackup_gui.py:656 pybackup_gui.py:663
+msgid "Could not create target '{path}': {error}"
+msgstr ""
+
+#: pybackup_gui.py:670
+msgid "Target directory '{path}' must exist."
+msgstr ""
+
+#: pybackup_gui.py:677
+msgid "Target directory '{path}' is not writable."
+msgstr ""
+
+#: pybackup_gui.py:696
+msgid "Log file path empty."
+msgstr ""
+
+#: pybackup_gui.py:698
+msgid "State file path empty."
+msgstr ""
+
+#: pybackup_gui.py:700
+msgid "Free percent must be 0-90."
+msgstr ""
+
+#: pybackup_gui.py:702
+msgid "Retries >= 0."
+msgstr ""
+
+#: pybackup_gui.py:704
+msgid "Retry delay >= 0."
+msgstr ""
+
+#: pybackup_gui.py:708
+msgid "Invalid option value: {error}"
+msgstr ""
+
+#: pybackup_gui.py:746
+msgid "Backup in progress..."
+msgstr ""
+
+#: pybackup_gui.py:788
+msgid "Backup started."
+msgstr ""
+
+#: pybackup_gui.py:817
+msgid "Backup Resumed."
+msgstr ""
+
+#: pybackup_gui.py:821
+msgid "Resume"
+msgstr ""
+
+#: pybackup_gui.py:823
+msgid "Backup Paused."
+msgstr ""
+
+#: pybackup_gui.py:831
+msgid "Cancel Backup"
+msgstr ""
+
+#: pybackup_gui.py:831
+msgid "Cancel backup process?"
+msgstr ""
+
+#: pybackup_gui.py:836
+msgid "Cancelling..."
+msgstr ""
+
+#: pybackup_gui.py:837
+msgid "Cancellation requested..."
+msgstr ""
+
+#: pybackup_gui.py:888
+msgid "Scanning/Comparing..."
+msgstr ""
+
+#: pybackup_gui.py:889
+msgid "Deleting..."
+msgstr ""
+
+#: pybackup_gui.py:890
+msgid "Entering dir..."
+msgstr ""
+
+#: pybackup_gui.py:891
+msgid "Processing link..."
+msgstr ""
+
+#: pybackup_gui.py:892
+msgid "Processing file..."
+msgstr ""
+
+#: pybackup_gui.py:893
+msgid "Copying..."
+msgstr ""
+
+#: pybackup_gui.py:894
+msgid "Copying ({size})..."
+msgstr ""
+
+#: pybackup_gui.py:896
+msgid "Directory done."
+msgstr ""
+
+#: pybackup_gui.py:897
+msgid "Scanning done."
+msgstr ""
+
+#: pybackup_gui.py:919
+msgid "Done"
+msgstr ""
+
+#: pybackup_gui.py:919
+msgid "Failed"
+msgstr ""
+
+#: pybackup_gui.py:929
+msgid "{items} items ({size})"
+msgstr ""
+
+#: pybackup_gui.py:949
+msgid "Backup Finished Successfully."
+msgstr ""
+
+#: pybackup_gui.py:951
+msgid "Unknown error"
+msgstr ""
+
+#: pybackup_gui.py:952
+msgid "Backup Failed: {error}"
+msgstr ""
+
+#: pybackup_gui.py:954
+msgid "Backup Cancelled by user."
+msgstr ""
+
+#: pybackup_gui.py:961
+msgid ""
+"Items processed (run): {items}\n"
+"Data copied (run): {size}"
+msgstr ""
+
+#: pybackup_gui.py:974
+msgid "Path: Reason"
+msgstr ""
+
+#: pybackup_gui.py:978
+msgid "Unknown"
+msgstr ""
+
+#: pybackup_gui.py:981
+msgid "None"
+msgstr ""
+
+#: pybackup_gui.py:1007
+msgid "Exit Confirmation"
+msgstr ""
+
+#: pybackup_gui.py:1008
+msgid ""
+"Backup is in progress. Are you sure you want to exit?\n"
+"This will cancel the backup."
+msgstr ""
